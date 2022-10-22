@@ -6,5 +6,5 @@ OBJ = hellomake.o hellofunc.o
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-hellomake: $(OBJ)
+hellosas96rp: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
